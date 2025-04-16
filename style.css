@@ -1,0 +1,279 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+
+  font-size: medium;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  padding-bottom:1px;
+  z-index: 1;
+}
+
+.navbar-brand{
+    padding-left: 1%;
+  }
+  .navbar-nav{
+    padding-left: 25%;
+  }
+  .logo-img{
+    border-radius: 41px;
+}
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav show>.nav-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+  .nav-link:hover{
+    color: skyblue;
+  }
+  .d-flex{
+    display: flex;
+    padding-left: 30%;
+    color: white;
+}
+  header{
+    background:none, url(images/White\ and\ Grey\ Simple\ Minimalist\ Accountant\ Linkedln\ Background\ Photo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 0;
+    text-align: left;
+    color: white;
+    height: 450px;
+    background-repeat: no-repeat;
+  }
+  .slide-title{
+    margin-top: 150px;
+    font-size: 70px;
+  }
+  
+  .btn-outline-dark {
+    color: white;
+  }
+  div.container.overflow-hidden.text-center{
+    width: 100%;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-section{
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .register{
+    padding-left: 20%;
+}
+button{
+    border-radius: 0;
+    border-style: none;
+    padding: 10px;
+    background-color:rgb(151, 212, 212);
+    color: white;
+
+}
+.btn{
+  background-color: white;
+  color: navy;
+}
+.btn:hover{
+  background-color: rgb(59, 145, 179);
+}
+img{
+  object-fit: cover;
+  margin: 20px;
+  padding-left: 2px;
+}
+div.gallery{
+  margin: 5px;
+  border: 1px solid cornflowerblue;
+  float: left;
+}
+
+.img-hero{
+  object-fit: contain;
+  object-position: top;
+  padding: 10px;
+}
+.container{
+  margin-top: 40px;
+}
+.container.m{
+  margin-top: 40px; 
+}
+.hero{
+  padding: 10px;
+}
+
+ul.hero{
+  margin-left: 20px;
+}
+.btn-services{
+margin-left: 40%;
+}
+.btns{
+  background-color: navy;
+  color: white;
+}
+.btns:hover{
+  background-color: rgb(59, 145, 179);
+  width: 50%;
+  padding: 5px;
+}
+.banner{
+  background-color: rgb(59, 145, 179);
+  width: 100%;
+  height: 250px;
+}
+.banner-description{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.banner-title{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.navbar-light .navbar-nav .nav-link.active.hi, .navbar-light .navbar-nav show>.nav-link{
+  text-decoration: none;
+  color: navy;
+  transition: 0.4s ease-in-out;
+}
+.heros {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+.container.h{
+  margin-top: 70px;
+  text-align: left;
+}
+.col.m{
+  padding-top: 40px;
+}
+.col.n{
+  padding-top: 40px;
+}
+.wcu{
+  text-align: center;
+  font-style: italic;
+}
+.card-text{
+  padding-top: 20px;
+}
+.card-text.h{
+  padding-top: 35px;
+}
+.card-title.h{
+  padding-right: 60px;
+}
+
+footer{
+  margin-top: 60px;
+  color: navy;
+  width: 100%;
+  background-color: white;
+}
+.row.f{
+  padding-top: 120px;
+}
+.be{
+  padding-top: 30px;
+}
+.ce{
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.fas{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.bel{
+  width: 30px;
+  margin: 0;
+  padding-top: 30px;
+}
+.service-container{
+  background-color: rgba(232, 230, 230, 1);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.numbering,.story,.financial{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  background-color: white;
+}
+.n-img{
+  width: 100%;
+}
+.t-img{
+  width: 95%;
+}
+.col.v{
+  padding-right: 40px;
+}
+.col.s{
+  padding: 10px 40px 10px 50px;
+  width: 50%;
+}
+.col.s>p{
+  padding-top: 10px;
+  text-align: justify;
+}
+.slide-title.h{
+  font-size: 90px;
+  margin-top: 150px;
+}
+.contact{
+  margin-top: 50px;
+  padding: 50px;
+}
+.loc, .soc{
+  color: rgb(17, 16, 16);
+  padding: left;
+}
+.col.form{
+  background: white;
+  margin: auto;
+}
+.soc{
+  margin-top: 40px;
+  font-size: 20px;
+}
+#Your-Name1,#email,#message{
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(208, 221, 227);
+  border-style: none;
+  border-color: navy;
+}
+.enquiries{
+  font-size: 50px;
+  line-height: 40px;
+}
+.row.e{
+  margin-top: 40px;
+}
+.fas{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.sub, .sub2{
+  width: 50%;
+  border-radius: 20px;
+  background-color: navy;
+  color: white;
+  border-style: none;
+}
+.sub2:hover{
+  background-color: rgb(151, 212, 212);
+  color: navy;
+}
+
+
+
