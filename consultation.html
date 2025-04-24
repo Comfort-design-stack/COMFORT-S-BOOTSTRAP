@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultation - Comfort's Forensic Accountancy Firm</title>
-    <link rel="stylesheet" href="consultation.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultation Request - Comfort's Forensic Accountancy Firm</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="consultation-container">
-        <h1>Book a Consultation</h1>
-        <p>Let’s talk about how we can assist with your forensic accounting needs.</p>
+    
+  <div class="container seem">
+    <h1 class="form-heading keh">Consultation Request Form</h1>
 
-        <form class="consultation-form" action="#" method="post">
-            <label for="fullname">Full Name</label>
-            <input type="text" id="fullname" name="fullname" required>
+    <!-- Toast-style Success Message -->
+<div id="toast" class="toast"> Consultation request submitted successfully!</div>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
+    <form class="consultation-form send" id="consultationForm" action="#" method="POST" onsubmit="return validateForm()">
+      <div class="form-group seek">
+        <label for="fullName" class="look">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+        <span id="fullNameError" class="error"></span>
+      </div>
 
-            <label for="date">Preferred Date</label>
-            <input type="date" id="date" name="date" required>
+      <div class="form-group seek">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <span id="emailError" class="error"></span>
+      </div>
 
-            <label for="time">Preferred Time</label>
-            <input type="time" id="time" name="time" required>
+      <div class="form-group seek">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+        <span id="phoneError" class="error"></span>
+      </div>
 
-            <label for="message">Additional Information</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell us a little more about your needs..."></textarea>
+      <div class="form-group seek">
+        <label for="consultationType">Type of Consultation</label>
+        <select id="consultationType" name="consultationType" required>
+          <option value="">Select Consultation Type</option>
+          <option value="Financial Fraud">Financial Fraud</option>
+          <option value="Fraud Investigations">Fraud Investigations</option>
+          <option value="Forensic Accounting">Forensic Accounting</option>
+          <option value="Litigation Support">Litigation Support</option>
+        </select>
+        <span id="consultationTypeError" class="error"></span>
+      </div>
 
-            <button type="submit">Request Consultation</button>
-        </form>
-    </div>
+      <div class="form-group seek">
+        <label for="comments">Additional Comments</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Provide any additional details"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Consultation Request</button>
+      <div class="cont">
+        <a href="index.html" class="cta-button">Return to Homepage</a>
+      </div>
+    </form>
+  </div>
+
 </body>
 </html>

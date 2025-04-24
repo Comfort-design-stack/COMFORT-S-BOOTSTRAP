@@ -33,7 +33,7 @@ body{
     color: white;
 }
   header{
-    background:none, url(images/White\ and\ Grey\ Simple\ Minimalist\ Accountant\ Linkedln\ Background\ Photo.png);
+    background:linear-gradient(rgba(5, 29, 84, 0.717)), url(images/White\ and\ Grey\ Simple\ Minimalist\ Accountant\ Linkedln\ Background\ Photo.png);
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -52,6 +52,12 @@ body{
   .btn-outline-dark {
     color: white;
   }
+  
+  .btn-outline-dark.mii {
+    color: white;
+    width: 100%;
+    margin-bottom: 30px;
+  }
   div.container.overflow-hidden.text-center{
     width: 100%;
     justify-items: center;
@@ -66,19 +72,33 @@ body{
   .register{
     padding-left: 20%;
 }
-button{
+button,.sub3{
     border-radius: 0;
     border-style: none;
-    padding: 10px;
-    background-color:rgb(151, 212, 212);
-    color: white;
+   
+}
+.sub3{
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 10px;
+  border-style:  none;
+  padding: 10px;
+  background-color:navy;
+  color: white;
 
 }
 .btn{
   background-color: white;
   color: navy;
 }
+.btn.mii{
+  background-color: white;
+  color: rgb(7, 7, 104);
+}
 .btn:hover{
+  background-color: rgb(59, 145, 179);
+}
+.btn-mii:hover{
   background-color: rgb(59, 145, 179);
 }
 img{
@@ -106,12 +126,14 @@ div.gallery{
 .hero{
   padding: 10px;
 }
-
+.mee{
+  padding-left: 10px;
+}
 ul.hero{
   margin-left: 20px;
 }
 .btn-services{
-margin-left: 40%;
+margin-left: 10px;
 }
 .btns{
   background-color: navy;
@@ -122,10 +144,16 @@ margin-left: 40%;
   width: 50%;
   padding: 5px;
 }
+.sub3:hover{
+  background-color: rgb(59, 145, 179);
+  width: 50%;
+  padding: 10px;
+}
 .banner{
   background-color: rgb(59, 145, 179);
   width: 100%;
   height: 250px;
+  font-size: medium;
 }
 .banner-description{
   color: white;
@@ -153,6 +181,12 @@ margin-left: 40%;
 }
 .col.m{
   padding-top: 40px;
+  text-align: justify;
+  padding-bottom: 50px;
+  padding-right: 30px;
+}
+.hep8ro{
+  padding-right: 35px;
 }
 .col.n{
   padding-top: 40px;
@@ -239,18 +273,20 @@ footer{
 .col.form{
   background: white;
   margin: auto;
+ 
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(6, 20, 51, 0.781);
 }
 .soc{
   margin-top: 40px;
   font-size: 20px;
 }
 #Your-Name1,#email,#message{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   width: 100%;
   padding: 10px;
-  background-color: rgb(208, 221, 227);
-  border-style: none;
-  border-color: navy;
+  background-color: rgb(203, 218, 223);
+  border-style: hidden;
 }
 .enquiries{
   font-size: 50px;
@@ -275,5 +311,361 @@ footer{
   color: navy;
 }
 
+/* Thank you Styles */
+body.wow{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.container.forum {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  margin: 20px;
+}
+
+.thank-you-heading {
+  text-align: center;
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.thank-you-message {
+  font-size: 16px;
+  color: #333;
+}
+
+h2.us {
+  color: navy;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.cta-button {
+  background-color: navy;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: rgb(59, 145, 179);
+}
+
+/* Consultation Styles */
+.container.seem {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(173, 85, 85, 0.1);
+  width: 100%;
+  max-width: 700px;
+  margin: 20px;
+  padding-right: 50px;
+  margin-left: 220px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-heading.keh {
+  text-align: center;
+  color: navy;
+  margin-bottom: 30px;
+}
+
+.consultation-form.send {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.seek {
+  margin-bottom: 20px;
+}
+
+label.look{
+  font-weight: bold;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="tel"], input[type="email"], input[type="text"], select, textarea {
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+  background-color: navy;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.img-c{
+  width: 500px;
+  height: auto;
+}
+.submit-btn:hover {
+  background-color: rgb(59, 145, 179);;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+/* ✅ Toast Style */
+.toast {
+  visibility: hidden;
+  min-width: 300px;
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1000;
+  right: 30px;
+  bottom: 30px;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sub,.sub2{
+  width: 40%;
+  border-radius: 10px;
+  background-color: navy;
+  color: white;
+  border-style: none;
+}
+
+.sub2:hover{
+  background-color: white;
+  color: navy;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  /* NAVIGATION */
+  .navbar-nav {
+    padding-left: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .logo-img {
+    width: 60px;
+    margin: auto;
+  }
+
+  /* HERO SECTION */
+  header {
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .slide-title,
+  .slide-title.h {
+    font-size: 38px;
+    margin-top: 80px;
+  }
+
+  /* LAYOUT */
+  .container,
+  .container.m,
+  .container.h {
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  .col.m,
+  .col.n,
+  .col.s,
+  .col.v {
+    width: 100% !important;
+    padding: 20px 10px;
+  }
+
+  .hero,
+  ul.hero {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  /* BANNER */
+  .banner {
+    height: auto;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .banner-title,
+  .banner-description {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  /* BUTTONS */
+  .btn,
+  .btn.mii,
+  .btns,
+  .cta-button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .btns:hover {
+    padding: 10px;
+  }
+
+  .sub,
+  .sub2 {
+    width: 100%;
+  }
+
+  /* IMAGES & GALLERY */
+  .gallery {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img-hero,
+  .n-img,
+  .t-img {
+    width: 80%;
+    padding: 0;
+  }
+  .row.mee,.row.m{
+    flex-direction: column;
+  }
+  .row.c{
+    flex-direction: column-reverse;
+  }
+  /* FORMS & CONTACT */
+  .contact {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .img-c{
+    width: 350px;
+    height: auto;
+  }
+  
+  .col.form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .soc {
+    text-align: center;
+    font-size: 18px;
+  }
+
+    .row.gx-5, .row.net{
+      margin-left: 25px;
+    }
+  .enquiries {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .container.seem {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  /* FOOTER */
+  .row.f {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .ce,
+  .be {
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .col.com{
+    text-align: center;
+  }
+  .col.com>ul{
+    text-align: left;
+  }
+  /* CTA BUTTONS */
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* TOAST */
+  .toast {
+    right: 10px;
+    bottom: 10px;
+    width: 90%;
+  }
+}
 
