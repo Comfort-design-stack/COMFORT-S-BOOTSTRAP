@@ -353,7 +353,8 @@ h2.us {
 .cta-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  margin-top: 30px;
+
   
 }
 
@@ -437,6 +438,12 @@ textarea {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+.cta-buttons.me{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 30px;
+
 .img-c{
   width: 500px;
   height: auto;
